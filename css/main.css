@@ -1,7 +1,12 @@
 .footer {
     display: block;
     background-color: rgb(26, 26, 223);
-    color: bisque;
+    color: white;
     text-align: center;
+}
+
+.container {
+    /* background-image: url(../img/andras-vas-Bd7gNnWJBkU-unsplash.jpg); */
+    /* background-color: #CCC; */
 }
 
