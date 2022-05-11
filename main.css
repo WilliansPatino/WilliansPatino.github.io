@@ -29,12 +29,23 @@ body {
 }
 
 @media (max-width: 768px) {
-    #intro {
-        width: 90% !important ;
+    #intro, #equipo {
+        width: 90% !important;
     }
     .servicio-fila {
         width: 100% !important;
         text-align: center;
+    }
+    #equipo p {
+        display: none;
+    }
+
+    #bg-contacto {
+        /* position: relative; */
+        top: -110px;
+    }
+    .mapa {
+       width: 80%;
     }
 }
 
@@ -43,5 +54,106 @@ body {
         flex-wrap: wrap;
         justify-content: center !important;
     }
+    #bg-contacto {
+        /* position: relative; */
+        top: -80px;
+    }
+}
+
+@media (max-width: 375px) {
+    #bg-contacto {
+        /* position: relative; */
+        top: -50px;
+    }
+}
+
+
+.mapa {
+    background-image: url(./img/map.png);
+    width: 90%;
+    height: 535px;
+}
+
+#local {
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+/* pantall ancha */
+@media (max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+#numeros-locales div {
+    padding: 0 20px 0 0 ;
+    height: 48px;
+}
+
+#numeros-locales div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-locales div:not(:first-child) {
+    padding-left: 20px;
+}
+
+#numeros-locales p {
+    margin: 0;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto {
+    background-color: #020873;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: relative;
+    top: 5%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background: #dbdadd;
+    border-radius: 5px;
+    max-width: 380px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+footer {
+    background: #021e73;
+    min-height: 100px;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3
 }
 
