@@ -2,15 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,700;1,900&display=swap');
 
 body {
-    font-family: 'Montserrat', 'Roboto', sans-serif;
+    font-family: 'Montserrat', 'Roboto', 'Josefin Sans', sans-serif;
     overflow-x: hidden;
+    
 }
+
 
 /* ---- MENU  */
 #menu a {
     font-size: 16px;
     font-weight: bold;
     color: gray;
+}
+
+.portafolio  {
+    width: 60%;
+    margin: auto;
+    /* height: 1px; */
+    border-radius: 2%;
+}
+
+.container {
+    background-color: #e6e0e049;
+    border-radius: 1%;
+    /* border: .02rem solid #b5b5b5; */
 }
 
 #menu button {
@@ -28,6 +43,16 @@ body {
     max-height: 39rem;
 }
 
+#contacter {
+    background-color: #ff6600;
+}
+
+#contacter img {
+    /* width: 60%; */
+    max-height: 250px;
+}
+
+/* pantallas medianas */
 @media (max-width: 768px) {
     #intro, #equipo {
         width: 90% !important;
@@ -45,10 +70,12 @@ body {
         top: -110px;
     }
     .mapa {
-       width: 80%;
+       width: 100%;
+       
     }
 }
 
+/* pantallas pequeñas */
 @media (max-width: 576px) {
     .icono-wrap {
         flex-wrap: wrap;
@@ -60,6 +87,7 @@ body {
     }
 }
 
+/* pantallas muy pequeñas */
 @media (max-width: 375px) {
     #bg-contacto {
         /* position: relative; */
@@ -70,13 +98,15 @@ body {
 
 .mapa {
     background-image: url(./img/map.png);
-    width: 90%;
+    width: 100%;
     height: 535px;
+    
+    
 }
 
 #local {
-    background: #f3f3f3;
-    padding-bottom: 300px;
+    background: #b81313;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
 }
@@ -95,7 +125,7 @@ body {
     }
 
     .wrapper {
-        width: 90%;
+        width: 100%;
         margin: auto;
         padding-top: 50px;
     }
@@ -139,12 +169,13 @@ body {
 }
 
 #titulo-formulario {
-    color: #3f3f3f;
+    /* color: #3f3f3f; */
+    background-color: #e7dbdb;
 }
 
 footer {
-    background: #021e73;
-    min-height: 100px;
+    background: #020873;
+    min-height: 50px;
 }
 footer p {
     color: #fff;
@@ -155,5 +186,10 @@ footer p {
     font-size: 26px;
     padding: 0 8px;
     color: #f3f3f3
+}
+
+#formulario {
+    background-color: rgba(163, 155, 197, 0.877);
+    max-width: 95%;
 }
 
