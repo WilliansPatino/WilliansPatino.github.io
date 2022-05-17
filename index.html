@@ -18,53 +18,234 @@
 
 <body>
 
+
+
   <!-- Encabezado -->
-  <header class="container bg-primary d-flex justify-content-center">
-    <p class="text-light display-6 mb-0 p-2 fs-5 text-bold">Contáctanos +58 (412) 307-6074</p>
+  <!-- <header class="container-fluid bg-primary justify-content-center"></header> -->
+  <header class="container-fluid bg-secondary justify-content-center sticky-top">
+    <!-- <h2 class="text-light mb-4 fs-5 px-2 text-center" id="underc"></h2>
+    <p class="mb-0 p-2 fs-5 text-bold text-center">Contáctanos +58 (412) 307-6074</p> -->
   </header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 " id="menu">
-    <div class="container">
+<section class="seccion-1 pb-5">
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="menu">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <span class="text-primary fs- fw-bold " id="mylogo">Informatike W.</span>
+        <span class="fw-bold " id="mylogo">Informatike W</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+
+      <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <!-- navbar-nav me-auto mb-2 mb-lg-0 -->
-        <ul class=" nav  justify-content-end">
+        <ul class="navbar-nav mx-sm-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
           </li>
-
+          
+          <!-- 
           <li class="nav-item">
-            <a class="nav-link" href="#equipo">Equipo</a>
+            <a class="nav-link" href="#equipo">Acerca de</a>
+          </li> -->
+          
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acerca de
+            </a>
+            <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Autor</a></li>
+              <li><a class="dropdown-item" href="#">Tecnologías utilizadas</a></li>
+              <!-- <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" href="#servicios">Servicios</a>
           </li>
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#wework">Tecnologías</a>
+          </li> -->
+
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#seccion-contacto">Contacto</a>
+          </li> -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contacto
+            </a>
+            <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Llamar</a></li>
+              <li><a class="dropdown-item" href="#">Enviar un mensaje</a></li>
+              <!-- <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
           </li>
-        </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul> <!-- menu -->
+        
+      </div> <!-- collapse -->
 
-        <!-- suscripcion -->
-        <!-- <form class="d-flex">
-          <input class="form-control me-2" type="email" placeholder="Correo electrónico" aria-label="email">
-          <button class="btn btn-primary-outline-success btn-primary" type="button">Suscríbete</button>
-        </form> -->
-
-      </div>
-    </div>
+    </div> <!-- container-->
   </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+          <!-- <div class="text-intro mx-5 pt-5 my-5"> -->
+            <div class="text-intro"> 
+                <h2 class="fw-bold display-4 pt-2 pb-3">Bienvenido!</h2>
+                <p class="pt-4 p-3 fs-2 text-light  border-3 pt-4">
+                Desde este portal espero brindar soluciones a clientes y posibles empleadores.</p>
+            </div>
+
+            <!-- <div class="mx-5 justify-content-center pt-3 mt-xs" id="btn-intro"> -->
+              <button type="button" class="btn my-btn-primary">Consulte el portafolio</button>
+              
+              <!-- 
+              <button type="button" class="btn btn-danger btn--minimal bt-lg-bordered">
+                2do boton
+              </button> 
+              -->
+            
+      </div> <!-- col-sm -->
+
+      <!--    <div class="col-sm mt-5">
+                <img src="img/keyboard-green.png" alt="hero">
+      </div>         -->
+      <!-- 
+        <div class="col-sm">
+          <a class="new-btn btn-danger btn--minimal btn-lg-bordered btn-inverse" 
+          href="#">Get started
+         
+          </a>
+      -->
+        </div>
+
+    </div> <!-- row -->
+  </div>
+</section>
+
+<!-- virtualization // Container-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg mt-5">
+      
+      <img src="img/poly-cloud-grey.jpg" alt="virtualization-containerizacion" class="img-fluid">
+
+    </div>
+    <div class="col-lg">
+      <h2 class="fs-2 pt-5 text-center text-primary">Conécte varios servicios a bajo costo  </h2>
+      <h3 class="sub-title">Virtualización</h3>
+     
+      <p class="fs-5 text-justify">
+        Morbi vel sapien vitae tortor malesuada
+         convallis. Praesent commodo vitae purus 
+         vitae faucibus. Nullam placerat pulvinar 
+         magna, non imperdiet mauris. Morbi ante
+          ligula, dapibus id pretium quis, 
+          ullamcorper a nulla. Etiam tempus 
+          urna nunc. Fusce imperdiet mollis mi, 
+          commodo hendrerit nulla blandit sit amet. 
+          Sed commodo leo et massa fringilla, nec 
+          aliquam enim vestibulum.
+      </p>
+      <button type="button" class="btn btn-primary">
+         Docker para entornos de desarrollo
+      </button> 
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- Firewalling -->
+<div class="container">
+  <div class="row">
+   
+    <div class="col-lg">
+      <h2 class="fs-2 pt-5 text-center text-primary">
+        Código abierto en la empresa</h2>
+      <h3 class="sub-title">Soluciones </h3>
+     
+      <p class="fs-5 text-justify">
+        Morbi vel sapien vitae tortor malesuada
+         convallis. Praesent commodo vitae purus 
+         vitae faucibus. Nullam placerat pulvinar 
+         magna, non imperdiet mauris. Morbi ante
+          ligula, dapibus id pretium quis, 
+          ullamcorper a nulla. Etiam tempus 
+          urna nunc. Fusce imperdiet mollis mi, 
+          commodo hendrerit nulla blandit sit amet. 
+          Sed commodo leo et massa fringilla, nec 
+          aliquam enim vestibulum.
+      </p>
+      <button type="button" class="btn btn-primary">
+         Productos y equipos
+      </button> 
+    </div>
+
+    <div class="col-lg mt-5">
+      
+      <img src="img/firewall-1u.jpg" alt="virtualization-containerizacion" class="img-fluid">
+
+    </div>
+    
+  </div>
+</div>
+
+
+<!-- soporte técnico  -->
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg mt-5">
+      
+      <img src="img/talk-bubble.jpg" alt="virtualization-containerizacion" class="img-fluid">
+
+    </div>
+   
+    <div class="col-lg">
+      <h2 class="fs-2 pt-5 text-center text-primary">
+        Ayuda, Documentación y Respuesta</h2>
+      <h3 class="sub-title">Soporte</h3>
+     
+      <p class="fs-5 text-justify">
+        Morbi vel sapien vitae tortor malesuada
+         convallis. Praesent commodo vitae purus 
+         vitae faucibus. Nullam placerat pulvinar 
+         magna, non imperdiet mauris. Morbi ante
+          ligula, dapibus id pretium quis, 
+          ullamcorper a nulla. Etiam tempus 
+          urna nunc. Fusce imperdiet mollis mi, 
+          commodo hendrerit nulla blandit sit amet. 
+          Sed commodo leo et massa fringilla, nec 
+          aliquam enim vestibulum.
+      </p>
+      <button type="button" class="btn btn-primary">
+         Obtenga apoyo técnico
+      </button> 
+    </div>
+
+  
+    
+  </div>
+</div>
+
+
   <!--  SLIDER-->
-  <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
+ <!--  <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="4000">
         <img src="./fav/slide0023.jpg" class="d-block w-100" alt="...">
@@ -108,18 +289,22 @@
       <spanclass="carousel-control-next-icon" aria-hidden="true"></span>
         <spanclass="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> -->
   <!-- fin SLIDER-->
 
   <!--  Intro -->
   <section class="w-50 mx-auto text-center pt-5" id="intro">
-    <h1 class="p-3 fs-2 border-top border-3 pt-5<">Asistencia personalizada para
+    <h1 class="p-3 fs-2 border-top border-3 pt-5">Asistencia personalizada para
       todas sus necesidades
       <span class="text-primary">Informática</span>
     </h1>
     <p class="p-3 fs-5 "><span class="text-primary fw-bold">Informatike W</span>
-      es mi portal web dónde espero poder brindar soluciones a los clientes
-       y lograr establecer sus proyectos de tecnologías</p>
+      es mi portal web dónde espero poder brindar soluciones a los clientes y 
+      potenciales empleadores. </p>
+      <p>
+        y lograr establecer sus proyectos de tecnologías
+      </p>
+       
       <h3>Áreas de tecnologías</h3>
     
     <p class="p-3 fs-5">Como profesional de TI y basado en mi experiencia laboral
