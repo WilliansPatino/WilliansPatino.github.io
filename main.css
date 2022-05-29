@@ -439,20 +439,22 @@ button {
 .img-asdrubal {
     background-image: url("./avatars/boy.webp");
     background-size: cover;
-    width: 10em;
-    height: 9em;
+    width: 80%;
+    max-width: 100px;
 }
 .img-jency {
-    background-image: url("./avatars/jency.jpeg");
+    background-image: url("./avatars/jency.webp");
     background-size: cover;
-    width: 7em;
-    height: 7em;
+    max-width: 18vmax;
+    min-width: 15vmax;
+    height:  15vmax; 
 }
 .img-cl3 {
     background-image: url("./avatars/img1.webp");
     background-size: cover;
-    width: 7em;
-    height: 7em;
+    max-width: 15vmax;
+    /* min-width: 10vmax; */
+    height:  15vmax; 
 }
 .img-cl4 {
     background-image: url("./avatars/img5.webp");
@@ -472,7 +474,12 @@ button {
   width: 7em;
     height: 7em;
 }
-
+.my-font-style {
+  font-size: calc(0.5em + 1vw);
+  line-height: 1em;
+  padding: 1em;
+  margin: 1em;
+}
 
 
 /*----------- TESTIMONIOS ---------*/
@@ -498,9 +505,10 @@ button {
     /* padding: 1.8125rem  1.9125rem 1.125rem 1.125rem; */
     background-color: rgba(0, 0, 0, 0.568);
     /* border-radius: 1.25rem 1.25rem 2.25rem; */
-    border-radius: 40px 0 40px 0;
+    border-radius: 0 40px 0 40px;
     color: #fff;
     height: auto;
+    /* font-size:2.5hw;  */
   }
   
 .arrow-down {
