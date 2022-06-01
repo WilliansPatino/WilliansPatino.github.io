@@ -433,42 +433,44 @@ button {
     left: 0px;
     background-color: rgba(0,0,0,0.25);
 }
-.img-asdrubal {
-    background-image: url("./avatars/boy.webp");
-    background-size: cover;
-    width: 80%;
-    max-width: 100px;
-}
+
 .img-jency {
-    background-image: url("./avatars/jency.webp");
+    background-image: url("./clients/jency.webp");
     background-size: cover;
-    max-width: 10vmax;
-    min-width: 10vmax;
-    height:  10vmax; 
+    min-width: 5.5vmax;
+    height:  5.5vmax; 
 }
-.img-cl3 {
-    background-image: url("./avatars/img1.webp");
+.img-man {
+    background-image: url("./avatar/man.png");
     background-size: cover;
-    max-width: 10vmax;
-    height:  10vmax; 
+    min-width: 6vmax;
+    height:  6vmax; 
 }
-.img-cl4 {
-    background-image: url("./avatars/img5.webp");
-    background-size: cover;
-    width: 7em;
-    height: 7em;
-}
-.img-luisa {
-    background-image: url("./avatars/img4.webp");
-    background-size: cover;
-    width: 7em;
-    height: 7em;
-}
-.img-cl6 {
-  background-image: url("./avatars/img2.webp");
+.img-hombre {
+  background-image: url("./avatar/hombre.png");
   background-size: cover;
-  width: 7em;
-    height: 7em;
+  max-width: 6vmax;
+  height:  6vmax; 
+}
+.img-mujer {
+    background-image: url("./avatar/mujer.png");
+    background-size: cover;
+    min-width: 6vmax;
+    height:  6vmax; 
+}
+.img-woman {
+    background-image: url("./avatar/woman.png");
+    background-size: cover;
+    /* max-width: 10vmax; */
+    min-width: 9vmax;
+    height:  8vmax; 
+}
+.img-joven {
+  background-image: url("./avatar/joven.png");
+  background-size: cover;
+  max-width: 10vmax;
+  min-width: 10vmax;
+  height:  10vmax; 
 }
 .my-font-style {
   /* font-size: calc(0.5em + 1vw); */
@@ -477,6 +479,13 @@ button {
   padding: 1em;
   margin: 1em;
 }
+/* remove border thumbnail */
+.thumbnail {
+  border: 0px;
+  box-shadow: none;
+  border-radius:0px;
+  background-color: #fff;
+  }
 
 
 /*----------- TESTIMONIOS ---------*/
@@ -485,7 +494,8 @@ button {
     width: 100%;
     height: 100%;
     /* background-color: #2945df; */
-    background-image: url("./img/community-3.jpg");
+    background-image: url("./bg/bgt.jpg");
+    background-size: cover;
 }
 
 
@@ -502,10 +512,10 @@ button {
 .t-card {
     padding: 1.8125rem 1.125rem 1.125rem;
     /* padding: 1.8125rem  1.9125rem 1.125rem 1.125rem; */
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(20, 20, 20, 0.473);
     /* border-radius: 1.25rem 1.25rem 2.25rem; */
     border-radius: 0 40px 0 40px;
-    color: #fff;
+    color: rgb(234, 235, 230);
     height: auto;
     /* font-size:2.5hw;  */
   }
