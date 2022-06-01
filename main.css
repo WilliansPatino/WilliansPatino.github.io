@@ -1,11 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 body {
     font-family: 'Montserrat','Roboto', 'Josefin Sans', Arial, Helvetica, sans-serif, sans-serif;
     overflow-x: hidden;
-    /* font-size: calc(0.8em + 0.5vw); */
-    /* font-size: calc(.6em + .6vw) */
+    font-size: calc(0.5em + 1vmax);
 }
 
 /* full responsive */ 
@@ -30,7 +30,7 @@ body {
 
 .sub-title {
     font-family: 'Oswald', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin: auto;
@@ -59,12 +59,17 @@ body {
 
 
 #my-logo {
-    font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'DM Serif Display', serif;
     font-size: 32px;
     padding-left: 32px;
-    color: #ffcc00 !important;
+    /* color: #c2245B !important; */
     /* color: #edca20 !important; */
     /* color: white; */
+}
+.font-logo {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2em;
 }
 
 
@@ -268,7 +273,7 @@ footer p {
         -o-background-size: cover;
     opacity: 0.8;
 }
-.seccion-1 {
+.opening {
     background-image: url("/background-img/bg1.jpg");
     width: auto;
     min-height: 500%;
@@ -282,8 +287,9 @@ footer p {
     /* desplazar la imagen del hero */
     background-position-y: 50%;
     background-position-x: 60%;
-
 }
+
+
 
 .text-intro {
     color:white;
@@ -296,19 +302,37 @@ footer p {
     padding-bottom: 24px;
 }
 
+.btn-primary:hover {
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.322);
+  font-weight: bold;
+  color: white;
+}
 
-.my-btn-primary {
+.my-btn-secondary {
     /* background-color: #fb2bfd !important; */
     background-color: #c2245B !important;
     color: white;
-    padding: 16px 32px !important;
+    padding: 12px 28px !important;
     /* border-color: white !important; */
 }
-.my-btn-secondary {
-    background-color: #13dafe !important;
+.my-btn-secondary:hover {
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.322);
+  font-weight: bolder;
+  color: white;
+}
+
+.my-btn-primary {
+    /* background-color: #014280 !important; */
+    background-color: #00749f !important;
+    /* background-color: #13dafe !important; */
     color: #fff;
     padding: 12px 50px !important;
     
+}
+.my-btn-primary:hover {
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.322);
+  font-weight: bolder;
+  color: white;
 }
 .btn-outline-primary {
     border-color: white !important;
@@ -340,18 +364,12 @@ footer p {
     transition: all 400ms ease-in;
 }
 
-.btn-danger {
-    background-color: #1475CF;
-    color: #ffffff;
-}
 
 .btn-inverse {
     color: #2A78BE;
 }
 
-.btn-container-danger {
-    border-color: #2A78BE;
-}
+
 
 .mt-xs {
     margin-top: 5px !important;
@@ -437,33 +455,33 @@ button {
 .img-jency {
     background-image: url("./clients/jency.webp");
     background-size: cover;
-    min-width: 5.5vmax;
-    height:  5.5vmax; 
+    min-width: 9.5vmax;
+    height:  9.5vmax; 
 }
 .img-man {
     background-image: url("./avatar/man.png");
     background-size: cover;
-    min-width: 6vmax;
-    height:  6vmax; 
+    min-width: 9.5vmax;
+    height:  9.5vmax; 
 }
 .img-hombre {
   background-image: url("./avatar/hombre.png");
   background-size: cover;
-  max-width: 6vmax;
-  height:  6vmax; 
+  max-width: 9.5vmax;
+  height:  9.5vmax; 
 }
 .img-mujer {
     background-image: url("./avatar/mujer.png");
     background-size: cover;
-    min-width: 6vmax;
-    height:  6vmax; 
+    min-width: 9.5vmax;
+    height:  9.5vmax; 
 }
 .img-woman {
     background-image: url("./avatar/woman.png");
     background-size: cover;
     /* max-width: 10vmax; */
-    min-width: 9vmax;
-    height:  8vmax; 
+    min-width: 9.5vmax;
+    height:  9.5vmax; 
 }
 .img-joven {
   background-image: url("./avatar/joven.png");
@@ -515,7 +533,7 @@ button {
     background-color: rgba(20, 20, 20, 0.473);
     /* border-radius: 1.25rem 1.25rem 2.25rem; */
     border-radius: 0 40px 0 40px;
-    color: rgb(234, 235, 230);
+    color: white;
     height: auto;
     /* font-size:2.5hw;  */
   }
