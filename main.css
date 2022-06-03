@@ -5,7 +5,7 @@
 body {
     font-family: 'Montserrat','Roboto', 'Josefin Sans', Arial, Helvetica, sans-serif, sans-serif;
     overflow-x: hidden;
-    font-size: calc(0.5em + 1vmax);
+    /* font-size: calc(0.5em + 1vmax); */
 }
 
 /* full responsive */ 
@@ -61,8 +61,8 @@ body {
 #my-logo {
     /* font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif; */
     font-family: 'DM Serif Display', serif;
-    font-size: 32px;
-    padding-left: 32px;
+    font-size: 1.7em;
+    /* padding-left: 32px; */
     /* color: #c2245B !important; */
     /* color: #edca20 !important; */
     /* color: white; */
@@ -222,19 +222,19 @@ body {
     background-color: #e7dbdb;
 }
 
-.bi-instagram:hover {
-  color:rgba(236, 15, 236, 0.877)
+.fa-instagram-square:hover {
+  color: #fd1d1d;
 }
 
 footer {
-    background: #020873;
-    min-height: 550px;
+    /* background: #020873; */
+    min-height: auto;
 }
-footer p {
+/* footer p {
     color: #fff;
     text-align: center;
 }
-
+ */
 #iconos i {
     font-size: 26px;
     padding: 0 8px;
@@ -493,6 +493,7 @@ button {
 .my-font-style {
   /* font-size: calc(0.5em + 1vw); */
       font-size: calc(.6em + .6vh);
+      font-weight: 500;
   line-height: 1em;
   padding: 1em;
   margin: 1em;
@@ -571,6 +572,8 @@ find-out-what-can-do-for-you {
 
 .my-bg-1 {
       background-color: #022256;
+      /* background-color: white; */
+      color: white;
 }
 .my-bg-2 {
     background-color: #014280;
