@@ -67,6 +67,11 @@ body {
     /* color: #edca20 !important; */
     /* color: white; */
 }
+#my-logo:hover {
+  color: #b81313;
+  color: #c2245B;
+}
+
 .font-logo {
   font-family: 'DM Serif Display', serif;
   font-size: 1.2em;
@@ -572,7 +577,6 @@ find-out-what-can-do-for-you {
 
 .my-bg-1 {
       background-color: #022256;
-      /* background-color: white; */
       color: white;
 }
 .my-bg-2 {
