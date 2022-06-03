@@ -67,9 +67,13 @@ body {
     /* color: #edca20 !important; */
     /* color: white; */
 }
+·my-logo::before {
+  color: white;
+}
 #my-logo:hover {
   color: #b81313;
   color: #c2245B;
+  color: white;
 }
 
 .font-logo {
@@ -412,9 +416,9 @@ button {
 }
 
 .under-construction {
-    background-image: url("img/under-construction.jpg");
+    background-image: url("./img/under-construction.jpg");
     width: auto;
-    min-height: 600%;
+    max-height: 500px;
     object-fit: contain;
     background-size: cover;
     -moz-background-size: cover;
@@ -581,6 +585,7 @@ find-out-what-can-do-for-you {
 }
 .my-bg-2 {
     background-color: #014280;
+    color: white;
 }
 .my-bg-3 {
     background-color: #00749f;
@@ -599,6 +604,10 @@ find-out-what-can-do-for-you {
 }
 .my-bg-card-3 {
   background-color: #efefef;
+}
+.my-bg-telegram {
+  background-color: #517da2;
+  color: white;
 }
 /*   pruebas */
 /*  */
