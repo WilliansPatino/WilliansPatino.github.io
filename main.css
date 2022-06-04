@@ -39,7 +39,7 @@ body {
 }
 
 .portafolio  {
-    width: 60%;
+    width: 100%;
     margin: auto;
     /* height: 1px; */
     border-radius: 2%;
@@ -61,7 +61,7 @@ body {
 #my-logo {
     /* font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif; */
     font-family: 'DM Serif Display', serif;
-    font-size: 1.7em;
+    /* font-size: 1.5rem; */
     /* padding-left: 32px; */
     /* color: #c2245B !important; */
     /* color: #edca20 !important; */
@@ -499,6 +499,20 @@ button {
   min-width: 10vmax;
   height:  10vmax; 
 }
+.img-client1 {
+  background-image: url("./clients/img1.webp");
+    background-size: cover;
+    /* max-width: 10vmax; */
+    min-width: 9.5vmax;
+    height:  9.5vmax; 
+}
+.img-client2 {
+  background-image: url("./clients/boy.webp");
+    background-size: cover;
+    /* max-width: 10vmax; */
+    min-width: 9.5vmax;
+    height:  9.5vmax; 
+}
 .my-font-style {
   /* font-size: calc(0.5em + 1vw); */
       font-size: calc(.6em + .6vh);
@@ -524,6 +538,7 @@ button {
     /* background-color: #2945df; */
     background-image: url("./bg/bgt.jpg");
     background-size: cover;
+    border-radius: 10px;
 }
 
 
@@ -605,10 +620,24 @@ find-out-what-can-do-for-you {
 .my-bg-card-3 {
   background-color: #efefef;
 }
+.my-bg-card4 {
+  background-color: #c0b5f931;
+}
+.my-bg-card5 {
+  background-color: #93cdf925;
+}
+.my-bg-card6 {
+  background-color: #bbcdf746;
+}
+.my-bg-card7 {
+  background-color: #4c55ff1e;
+}
+
 .my-bg-telegram {
   background-color: #517da2;
   color: white;
 }
+
 /*   pruebas */
 /*  */
 .fa-circle-arrow-right {
@@ -879,4 +908,18 @@ body {
 #virtualization:hover {
   box-shadow: #00c0d6;
   border: #1881e4;
+}
+
+.fa-solid {
+  color: white;
+}
+.fa-solid:hover {
+  color: #04c1f0;
+  /* width: 30px; */
+  font-weight: 500;
+  /* height: 30px; */
+}
+
+li > a {
+  text-decoration: none;
 }
