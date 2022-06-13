@@ -1,6 +1,13 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide/&display=swap');
+
+:root {
+  --my-color2: #fb2bfd;
+  --my-color3: #c2245B;
+}
 
 body {
     font-family: 'Montserrat','Roboto', 'Josefin Sans', Arial, Helvetica, sans-serif, sans-serif;
@@ -60,16 +67,16 @@ body {
 
 #my-logo {
     /* font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif; */
-    font-family: 'DM Serif Display', serif;
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Audiowide', cursive;
     /* font-size: 1.5rem; */
     /* padding-left: 32px; */
     /* color: #c2245B !important; */
     /* color: #edca20 !important; */
     /* color: white; */
 }
-·my-logo::before {
-  color: white;
-}
+
+
 #my-logo:hover {
   color: #b81313;
   color: #c2245B;
@@ -78,6 +85,7 @@ body {
 
 .font-logo {
   font-family: 'DM Serif Display', serif;
+  font-family: 'Audiowide', cursive;
   font-size: 1.2em;
 }
 
@@ -231,8 +239,12 @@ body {
     background-color: #e7dbdb;
 }
 
+/***   redes sociales **/
 .fa-instagram-square:hover {
   color: #fd1d1d;
+}
+.fa-linkedin:hover {
+  color: #00a0dc;
 }
 
 footer {
@@ -317,6 +329,12 @@ footer {
   color: white;
 }
 
+.my-primary-color {
+  color:  #00749f !important;
+}
+.my-secondary-color {
+   color: #c2245B !important; 
+}
 .my-btn-secondary {
     /* background-color: #fb2bfd !important; */
     background-color: #c2245B !important;
@@ -414,7 +432,7 @@ button {
 
 .nav-link:hover, li>a:hover {
     /* background-color: #fb2bfd; */
-    border-bottom: 3px solid #fb2bfd !important;
+    border-bottom: 3px solid var(--my-color2) !important;
     font-weight: 600;
     color: white;
 }
@@ -438,7 +456,7 @@ button {
 /**  Testimonios imagenes **/
 
 .bg-testimonials {
-    background-image: url("img/community-3.jpg");
+    background-image: url("./img/community.jpg");
     width: auto;
     /* min-height: 500px; */
     height: 50vh;
@@ -934,7 +952,6 @@ li > a {
   text-shadow: -3px 3px 0 #000,
   
               -3px -3px 0 #000;
-              text-shadow: , , , 
 }
 .text-shadow {
   color: #FFF;
@@ -945,4 +962,10 @@ li > a {
   text-shadow: -4px 3px 0 #242727;
   /* , -10px 7px 0 #0a0e27; */
   /* text-shadow: -4px 3px 0 #34ccd1, -14px 7px 0 #0a0e27; */
+}
+.bi {
+ font-size: 30px;
+}
+.bi:hover {
+  color: var(--my-color2);
 }
