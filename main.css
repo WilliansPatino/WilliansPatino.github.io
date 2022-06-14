@@ -295,7 +295,7 @@ footer {
     opacity: 0.8;
 }
 .opening {
-    background-image: url("/background-img/bg1.jpg");
+    background-image: url("./background-img/bg1.jpg");
     width: auto;
     min-height: 500%;
     object-fit: contain;
