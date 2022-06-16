@@ -12,11 +12,10 @@ function handleSubmit(event) {
   console.log(form.get('clientName'));
 
   $buttonMailto.setAttribute('href', 
-  `mailto:informatikow@gmail.com?subject=Solicitud de: ${form.get('clientName')} 
+  `mailto:informatikow@gmail.com?subject=Solicitud vía Web de: ${form.get('clientName')} 
   // ${form.get('clientEmail')}&body=${form.get('clientMsg')}
-
+   ... Continue aquí con su solicitud o comentario.
   
-  --- Enviado por: ${form.get('clientName')} ---
   `);
   $buttonMailto.click();
   document.getElementById('form'). reset();
