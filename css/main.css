@@ -641,29 +641,38 @@ find-out-what-can-do-for-you {
 .my-bg-5 {
     background-color: #00c0d6;
 }
-.my-bg-card-1 {
+.my-bg-card1 {
     background-color: #f5f5f5;
+    border-radius: 10px;
 }
-.my-bg-card-2 {
+.my-bg-card2 {
     background-color: #f7f7f7;
+    border-radius: 10px;
 }
-.my-bg-card-3 {
+.my-bg-card3 {
   background-color: #efefef;
+  border-radius: 10px;
 }
 .my-bg-card4 {
   background-color: #c0b5f931;
+  border-radius: 10px;
 }
 .my-bg-card5 {
   background-color: #93cdf925;
+  border-radius: 10px;
 }
 .my-bg-card6 {
   background-color: #bbcdf746;
+  border-radius: 10px;
 }
 .my-bg-card7 {
   background-color: #4c55ff1e;
+  border-radius: 10px;
 }
 .my-bg-card-test {
-  background-color: magenta;
+  background-color: rgb(20, 23, 228);
+  color: white;
+  border-radius: 10px;
 }
 
 
