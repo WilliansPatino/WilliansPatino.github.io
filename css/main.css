@@ -570,6 +570,15 @@ button {
   opacity: .9;
 }
 
+.card-intro1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: #2945df; */
+  /* background-image: url("../img/proservices.jpg"); */
+  /* background-image: url("../img/proserv.jpg"); */
+  background-size: cover;
+}
+
 
 
 .carousel-icon i {
