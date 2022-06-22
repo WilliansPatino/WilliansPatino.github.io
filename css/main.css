@@ -574,7 +574,7 @@ button {
   background-image: url("../img/contactme.jpg");
   background-size: cover;
   border-radius: 10px;
-  opacity: .9;
+  /* opacity: .5; */
 }
 
 .card-intro1 {
