@@ -12,6 +12,11 @@ body {
     /* font-size: calc(0.5em + 1vmax); */
 }
 
+.cardsize {
+  width: 18rem;
+}
+
+
 /* full responsive */ 
 .font-fluid {
   font-size: calc(.6em + .5vw);
