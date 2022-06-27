@@ -506,18 +506,25 @@ button {
   max-width: 9.5vmax;
   height:  9.5vmax; 
 }
-.img-mujer {
-    background-image: url("../avatar/mujer.png");
+.img-woman1 {
+    background-image: url("../avatar/woman.png");
     background-size: cover;
     min-width: 9.5vmax;
     height:  9.5vmax; 
 }
-.img-woman {
-    background-image: url("../avatar/woman.png");
+.img-woman2 {
+    background-image: url("../avatar/woman2.png");
     background-size: cover;
     /* max-width: 10vmax; */
     min-width: 9.5vmax;
     height:  9.5vmax; 
+}
+.img-woman3 {
+  background-image: url("../avatar/woman3.png");
+  background-size: cover;
+  /* max-width: 10vmax; */
+  min-width: 9.5vmax;
+  height:  9.5vmax; 
 }
 .img-joven {
   background-image: url("../avatar/joven.png");
